@@ -4,4 +4,4 @@
 
 ![Banner preview](banner.PNG)
 
-[Link para o jogo!]()
+[Link para o jogo!](https://leozings.github.io/javascript-numeroSecreto/)
