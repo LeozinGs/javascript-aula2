@@ -18,13 +18,14 @@ let tentativas = 1;
 function exibirTexto(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
 
 // Função que engloda as duas chamadas da função que escreve texto nos elementos HTML.
 function exibirMensagemInicial() {
 
     //Chamadas da função e definição de parâmetros para adicionar texto aos elementos HTML.
-    exibirTexto('h1', 'Jogo do número secreto!');
+    exibirTexto('h1', 'Jogo do número secreto');
     exibirTexto('p', `Escolha um número entre 1 e ${numeroMaximo}`);
 }
 
